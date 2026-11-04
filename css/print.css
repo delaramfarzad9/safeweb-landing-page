@@ -1,0 +1,9 @@
+
+@page { margin: 15mm; }
+body { font-family: Arial, sans-serif; color: black; background: white; }
+.site-header, .site-footer, .btn, .hero-image-wrap { display: none !important; }
+.section { padding: 15px 0; }
+.hero-grid, .about-grid, .contact-grid { display: block; }
+.card-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.service-card, .contact-details { box-shadow: none; border: 1px solid #777; break-inside: avoid; }
+a { color: black; text-decoration: none; }
