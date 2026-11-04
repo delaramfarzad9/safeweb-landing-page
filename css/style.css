@@ -198,10 +198,10 @@ p {
   grid-column: 2;
 }
 .hero-image-wrap img {
+  display: block;
   width: 100%;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 16px;
+  height: auto;
+  object-fit: contain;
 }
 
 .hero-content {
